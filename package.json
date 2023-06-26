@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-typescript-course",
+  "version": "1.0.0",
+  "description": "typescript node.s API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "api"
+  ],
+  "author": "Maria Eduarda Guimaraes",
+  "license": "ISC",
+  "dependencies": {
+    "module-alias": "^2.2.3",
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "@types/module-alias": "^2.0.1",
+    "@types/node": "^20.3.1",
+    "tsconfig.json": "^1.0.11",
+    "typescript": "^5.1.3"
+  }
+}
