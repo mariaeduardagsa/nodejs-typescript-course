@@ -6,6 +6,8 @@
   "scripts": {
     "build": "tsc",
     "start": "yarn build && node dist/src/util/index.js",
+    "lint": "eslint ./src ./test --ext .ts",
+    "lint:fix": "eslint ./src ./test --ext .ts --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
